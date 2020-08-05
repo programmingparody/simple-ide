@@ -86,7 +86,7 @@ Compile and execute code through simple interfaces. Ideally these interfaces sho
 
 ---
 ## Sample usecase: Run Golang code
-[View usecase test](core.tests/usecases/RunGolangCodeTest)
+[View usecase test](core.tests/RunGolangCodeTest.cs)
 
 1. User creates an emtpy project directory from a `Provider` with specified settings *IE: Language = Golang*
     - `Provider.CreateNewProject(new ProjectSettings{Language = "Golang"})`
